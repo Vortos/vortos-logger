@@ -1,0 +1,17 @@
+{
+    "name": "vortos/vortos-logger",
+    "description": "Vortos logger — Monolog PSR-3 integration",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vortos\\Logger\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "vortos/vortos-foundation": "^1.0",
+        "psr/log": "^3.0",
+        "monolog/monolog": "^3.0"
+    }
+}
